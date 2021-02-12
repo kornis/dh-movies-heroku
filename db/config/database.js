@@ -1,7 +1,7 @@
 module.exports = {
   "production": {
     "username": "kornis",
-    "password": "35362016Fg.",
+    "password": "Digitalhouse2020.",
     "database": "kornis_movies_db",
     "host": "mysql-kornis.alwaysdata.net",
     "dialect": "mysql"
