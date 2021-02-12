@@ -1,9 +1,9 @@
 module.exports = {
-  "production": {
-    "username": "kornis",
-    "password": "35362016Fg.",
-    "database": "kornis_movies_db",
-    "host": "mysql-kornis.alwaysdata.net",
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "movies_db",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
@@ -13,7 +13,7 @@ module.exports = {
     "host": "127.0.0.1",
     "dialect": "mysql",
   },
-  "development": {
+  "production": {
     "username": "root",
     "password": null,
     "database": "database_production",
