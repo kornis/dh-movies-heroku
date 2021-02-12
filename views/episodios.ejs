@@ -1,0 +1,30 @@
+<%- include('partials/header') %>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Episodios</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card-container d-flex">
+                    <% episodes.forEach(episode => { %>
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <%= episode.title %>
+                                </h5>
+                                <p class="card-text">Rating: <%= episode.rating %>
+                                </p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <%= episode.release_date.getFullYear() %>
+                            </div>
+                        </div>
+                        <% }) %>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

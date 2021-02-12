@@ -1,0 +1,14 @@
+.card-container {
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-right: 5px;
+    width: 300px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
